@@ -2,7 +2,7 @@ require('seajs') ;
 
 define(function(require){
 
-	var Parser = require("../lib/Parser.js") ;
+	var Parser = require("../") ;
 
 	require("fs").readFile(__dirname+"/templates/css-zen-garden.html",function(err,bff){
 
