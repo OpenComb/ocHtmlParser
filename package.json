@@ -1,0 +1,20 @@
+{
+  "name": "ocHtmlparser",
+  "version": "0.1.0",
+  "description": "a html document parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "alee chou",
+  "license": "MIT"
+
+	,"directories": {
+		"lib" : "./lib"
+	}
+
+	, "dependencies": {
+		"seajs": "1.3.0"
+	}
+}
