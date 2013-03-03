@@ -10,7 +10,7 @@ define(function(require){
 			throw new Error(err) ;
 		}
 
-		var parser = new Parser ;
+		var parser = Parser.htmlParser() ;
 		parser.parseSync(bff) ;
 
 	})
