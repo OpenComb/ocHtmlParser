@@ -11,7 +11,9 @@ define(function(require){
 		}
 
 		var parser = Parser.htmlParser() ;
-		parser.parseSync(bff) ;
+		var objTree = parser.parseSync(bff) ;
+
+		console.log(objTree) ;
 
 	})
 
