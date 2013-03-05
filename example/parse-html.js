@@ -4,7 +4,7 @@ define(function(require){
 
 	var ParserFactory = require("../") ;
 
-	require("fs").readFile(__dirname+"/templates/css-zen-garden.html",function(err,bff){
+	require("fs").readFile(__dirname+"/templates/test.html",function(err,bff){
 
 		if(err){
 			throw new Error(err) ;
