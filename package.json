@@ -1,5 +1,5 @@
 {
-  "name": "ocHtmlParser",
+  "name": "ochtmlparser",
   "version": "0.1.0",
   "description": "a html document parser",
   "main": "./lib/Factory.js",
@@ -15,6 +15,6 @@
 	}
 
 	, "dependencies": {
-		"ocClass": "0.1"
+		"occlass": "0.1"
 	}
 }
